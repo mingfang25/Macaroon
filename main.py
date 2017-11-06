@@ -19,7 +19,7 @@ from songToData import createSlicesFromAudio
 
 import argparse
 parser = argparse.ArgumentParser()
-parser.add_argument("mode", help="Trains, tests, predicts or graphs the CNN", nargs='+', choices=["train","test","slice", "graph", "predict"])
+parser.add_argument("mode", help="Trains, tests or predicts song genre", nargs='+', choices=["train","test","slice", "predict"])
 args = parser.parse_args()
 
 print("--------------------------")
