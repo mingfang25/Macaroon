@@ -1,0 +1,2 @@
+model_checkpoint_path: "/Users/AymanZAY/Macaroon/musicDNN.tflearn"
+all_model_checkpoint_paths: "/Users/AymanZAY/Macaroon/musicDNN.tflearn"
